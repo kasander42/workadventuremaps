@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="2021.02.15" orientation="orthogonal" renderorder="right-down" width="96" height="36" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="142">
  <editorsettings>
-  <export target="wunderland_export.json" format="json"/>
+  <export target="wunderland.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" name="RoomTerrain" tilewidth="32" tileheight="32" tilecount="2550" columns="50">
   <image source="tilesets/Modern_Interiors/1_Interiors/32x32/Room_Builder_32x32.png" width="1600" height="1632"/>
@@ -849,7 +849,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="13" name="Objektebene 1" visible="0">
+ <objectgroup id="13" name="floorLayer">
   <object id="2" x="-2" y="-6" width="100" height="418"/>
   <object id="3" x="98" y="-6" width="1596" height="96"/>
   <object id="4" x="466" y="94" width="138" height="410"/>
